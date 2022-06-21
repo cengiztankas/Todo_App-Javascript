@@ -1,0 +1,66 @@
+
+.todo_app{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-search{
+    justify-content: space-between;
+}
+.search{
+   width: 100%;
+}
+.task.list-group-item{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+#deleteupdateitemdropdown .fa-solid.fa-rectangle-xmark{
+    
+ color: brown !important;
+}
+#deleteupdateitemdropdown .fa-solid.fa-pencil{
+    color: green;
+}
+#deleteupdateitemdropdown .btn.show{
+    border: none !important;
+}
+#deleteupdateitemdropdown .btn:focus {
+border: none !important;
+}
+#deleteupdateitemdropdown .btn:hover {
+border: none !important;
+
+}
+.disabled{
+    pointer-events: none;
+}
+
+#btnclear{
+    margin-right: 0;
+}
+.btnclear{
+    text-align: right;
+}
+.card{
+    padding: 30px;
+    margin: 25px;
+    width: 500px;
+
+}
+.checked{
+    text-decoration: line-through;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filters span.active{
+    color: #3c87ff;
+}
+.controls span{
+    margin-right: 5px;
+    font-size: 15px;
+    color: #444444;
+    cursor: pointer;
+}
